@@ -3,3 +3,40 @@ main {
   padding: 2rem;
   margin: auto;
 }
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5rem;
+  border-bottom: dashed 2px #6594e0;
+}
+
+.profile {
+  color: #1e366a;
+  border-top: solid #1e366a 1px;/*上のボーダー*/
+  border-bottom: solid #1e366a 1px;/*下のボーダー*/
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 0.5em;
+  list-style: none;
+}
+
+.profile ul li, ol li {
+  line-height: 1.5;
+  padding: 0.5em 0;
+}
+
+li {
+  list-style: none;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
+ol li {
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+  color: rgb(90, 90, 90)
+}
+
+ol li:before {
+  content: "- ";
+}
