@@ -36,6 +36,18 @@
     vertical-align: middle;
 }
 
+.btn-icon-twitter:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin: -3px 5px 0 0;
+    background: url("/css/img/twitter.svg") no-repeat;
+    background-size: contain;
+    color: white;
+    vertical-align: middle;
+}
+
 .btn {
     display: inline-block;
     border-color: #eeeeee;

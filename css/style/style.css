@@ -1,5 +1,5 @@
 main {
-  max-width: 38rem;
+  max-width: 100rem;
   padding: 2rem;
   margin: auto;
 }
@@ -13,9 +13,9 @@ h2 {
 .profile {
   color: #1e366a;
   border-top: solid #1e366a 1px;/*上のボーダー*/
-  border-bottom: solid #1e366a 1px;/*下のボーダー*/
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  /*border-bottom: solid #1e366a 1px;/*下のボーダー*/
+  padding-top: 0.5em;
+  margin-bottom: 1.0em;
   padding-left: 0.5em;
   list-style: none;
 }
