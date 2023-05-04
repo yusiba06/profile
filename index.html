@@ -9,12 +9,23 @@
   <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="/css/style/style.css">
   <link rel="stylesheet" href="/css/style/button.css">
+  <link rel="stylesheet" href="/css/style/hmenu.css">
   <link rel="icon" href="/favicon.ico">
   <script src="/script/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/uikit@3.16.15/dist/js/uikit-icons.min.js"></script>
   <meta name="robots" content="noindex" />
   <meta name="robots" content="nofollow" />
 </head>
+<div id="hmenu">
+  <input id="hcheck" type="checkbox">
+  <label id="hopen" for="hcheck"><img src="hicon.png" alt="メニュー" width="34" height="28"></label>
+  <label id="hclose" for="hcheck"></label>
+  <nav class="hmenu">
+    <li><a href="#">ホーム</a></li>
+    <li><a href="#">ホーム</a></li>
+    <li><a href="#">ホーム</a></li>
+  </nav>
+</div>
 <body class="bg-light">
   <main>
     <div class="text-center m-4">
@@ -37,15 +48,18 @@
       <li>科学部 物理班</li>
     </ul>
     <ul class="profile">
-      <li>誕生日: 2006年1月27日</li>
-      <li>血液型: O型</li>
       <li>趣　味: 電子工作, 花を育てること, 鉄道模型</li>
     </ul>
     <ul class="profile">
-      <li>TEL : 070-1909-3241</li>
       <li>Mail : yusiba06@gmail.com</li>
       <li>学校HP : <a target="_blank" href="http://www.tokuyama-h.ysn21.jp/bcms/">http://www.tokuyama-h.ysn21.jp/bcms/</a></li>
     </ul>
+    <div id="isef" class="newcontent">
+      <h3>ISEF出場中！</h2>
+      <h4>2023年5月14～19日に開催される『Regeneron ISEF 2023』に出場します。『「些音聞金」の物理特性と使用法の解明と応用』</h4>
+      <h4>ブースID：PHYS010T</h4>
+      <h4><a target="_blank" href="https://projectboard.world/isef/project/phys010t-mechanism-and-usage-of-ninja-tool-saoto-kikigane">バーチャルブースはこちら</a></h4>
+    </div>
     <div id="sns" class="my-3">
       <a href="https://www.facebook.com/profile.php?id=100066269419229" class="btn btn-icon-facebook" style="background-color: #3b5998;">Facebook</a>
       <a href="https://www.instagram.com/sahasaka0127/" class="btn btn-icon-instagram" style="background-color: #ff0076;">Instagram</a>
@@ -55,7 +69,7 @@
     <div id="history" class="mt-3">
       <h2>経歴</h2>
       <li>2006年1月 - 誕生</li>
-      <li>2021年4月 - 山口県立徳山高等学校 全日制 理数科 入学</li>
+      <li>2021年4月 - 山口県立徳山高等学校 入学</li>
     </div>
     <div id="part" class="mt-3">
       <h2>参加歴</h2>

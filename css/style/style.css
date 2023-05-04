@@ -10,6 +10,17 @@ h2 {
   border-bottom: dashed 2px #6594e0;
 }
 
+h3 {
+  font-size: 1.7em;
+  margin-bottom: 0.5rem;
+}
+
+h4 {
+  font-size: 1.0em;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
 .profile {
   color: #1e366a;
   border-top: solid #1e366a 1px;/*上のボーダー*/
@@ -23,6 +34,18 @@ h2 {
 .profile ul li, ol li {
   line-height: 1.5;
   padding: 0.5em 0;
+}
+
+.newcontent{
+  padding: 1.0em;
+  background-color: #dbe6ff;
+}
+
+.hmenu {
+  color: #373f52;
+  padding-top: 0.5em;
+  padding-left: 1.0em;
+  font-size: 1.5em;
 }
 
 li {
